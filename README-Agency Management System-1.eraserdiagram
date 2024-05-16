@@ -17,7 +17,6 @@ edb_agency [icon: building, color: blue]{
   created_by int
   updated_at datetime
   updated_by int
-  test  int
 }
 
 edb_agency_managers [icon: user-tie, color: green]{
@@ -68,6 +67,7 @@ edb_agency_translation [icon: globe, color: purple]{
   created_by int
   updated_at datetime
   updated_by int
+  test  int
 }
 // End of tables
 edb_agency_managers.agency_id > edb_agency.id
