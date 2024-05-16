@@ -1,0 +1,77 @@
+entity-relationship-diagram
+
+title Agency Management System
+edb_agency [icon: building, color: blue]{
+  id int pk
+  agency_code string
+  email string
+  fax string
+  phone_number string
+  site_link string
+  instagram_link string
+  facebook_link string
+  twitter_link string
+  youtube_link string
+  status enum
+  created_at datetime
+  created_by int
+  updated_at datetime
+  updated_by int
+}
+
+edb_agency_managers [icon: user-tie, color: green]{
+  id int pk
+  agency_id int
+  email text
+  phone_number string
+  status enum
+  created_at datetime
+  created_by int
+  updated_at datetime
+  updated_by int
+}
+
+edb_agency_managers_translation [icon: language, color: orange]{
+  id int pk
+  agency_manager_id int
+  name string
+  site_language string
+  status enum
+  created_at datetime
+  created_by int
+  updated_at datetime
+  updated_by int
+}
+
+edb_agency_manager_artists [icon: users, color: red]{
+  id int pk
+  agency_id int
+  agency_manager_id int
+  people_id string
+  status enum
+  created_at datetime
+  created_by int
+  updated_at datetime
+  updated_by int
+}
+
+edb_agency_translation [icon: globe, color: purple]{
+  id int pk
+  agency_id int
+  name string
+  address text
+  aka string
+  site_language string
+  status enum
+  created_at datetime
+  created_by int
+  updated_at datetime
+  updated_by int
+}
+// End of tables
+edb_agency_managers.agency_id > edb_agency.id
+edb_agency_managers_translation.agency_manager_id > edb_agency_managers.id
+edb_agency_manager_artists.agency_id > edb_agency.id
+edb_agency_manager_artists.agency_manager_id > edb_agency_managers.id
+edb_agency_translation.agency_id > edb_agency.id
+
