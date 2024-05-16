@@ -67,7 +67,6 @@ edb_agency_translation [icon: globe, color: purple]{
   created_by int
   updated_at datetime
   updated_by int
-  test  int
 }
 // End of tables
 edb_agency_managers.agency_id > edb_agency.id
@@ -75,4 +74,3 @@ edb_agency_managers_translation.agency_manager_id > edb_agency_managers.id
 edb_agency_manager_artists.agency_id > edb_agency.id
 edb_agency_manager_artists.agency_manager_id > edb_agency_managers.id
 edb_agency_translation.agency_id > edb_agency.id
-

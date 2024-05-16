@@ -6,7 +6,7 @@ This is to create a ERD using AI tool.
 <!-- eraser-additional-content -->
 ## Diagrams
 <!-- eraser-additional-files -->
-<a href="/README-Agency Management System-1.eraserdiagram" data-element-id="feksP_U3DoQGIV86-j_iC"><img src="/.eraser/uFDqUm1RSpHS0Jahm0FI___kqVEipG3vWa25zrYNsF3MzLHV9o1___---diagram----2f79701161378b601f21790cbb69dda8-Agency-Management-System.png" alt="" data-element-id="feksP_U3DoQGIV86-j_iC" /></a>
+<a href="/README-Agency Management System-1.eraserdiagram" data-element-id="feksP_U3DoQGIV86-j_iC"><img src="/.eraser/uFDqUm1RSpHS0Jahm0FI___kqVEipG3vWa25zrYNsF3MzLHV9o1___---diagram----673204d7f6db1ef19e35a0e9e548eb18-Agency-Management-System.png" alt="" data-element-id="feksP_U3DoQGIV86-j_iC" /></a>
 <!-- end-eraser-additional-files -->
 <!-- end-eraser-additional-content -->
 <!--- Eraser file: https://app.eraser.io/workspace/uFDqUm1RSpHS0Jahm0FI --->
