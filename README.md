@@ -1,29 +1,12 @@
-CREATE TABLE IF NOT EXISTS `edb_agency` (
-  `id` int(11) NOT NULL,
-  `agency_code` varchar(255) NOT NULL COMMENT 'store the agency code or ID. auto generated  i.e A0001, A0002...',
-  `email` varchar(255) NOT NULL,
-  `fax` varchar(255) DEFAULT NULL,
-  `phone_number` varchar(255) DEFAULT NULL,
-  `site_link` varchar(255) DEFAULT NULL,
-  `instagram_link` varchar(255) DEFAULT NULL,
-  `facebook_link` varchar(255) DEFAULT NULL,
-  `twitter_link` varchar(255) DEFAULT NULL,
-  `youtube_link` varchar(255) DEFAULT NULL,
-  `status` enum('active','inactive','deleted') NOT NULL DEFAULT 'active',
-  `created_at` datetime NOT NULL,
-  `created_by` int(11) DEFAULT NULL,
-  `updated_at` datetime DEFAULT NULL,
-  `updated_by` int(11) DEFAULT NULL
-)
+<p><a target="_blank" href="https://app.eraser.io/workspace/uFDqUm1RSpHS0Jahm0FI" id="edit-in-eraser-github-link"><img alt="Edit in Eraser" src="https://firebasestorage.googleapis.com/v0/b/second-petal-295822.appspot.com/o/images%2Fgithub%2FOpen%20in%20Eraser.svg?alt=media&amp;token=968381c8-a7e7-472a-8ed6-4a6626da5501"></a></p>
 
-CREATE TABLE IF NOT EXISTS `edb_agency_managers` (
-  `id` int(11) NOT NULL,
-  `agency_id` varchar(255) NOT NULL COMMENT 'store the agency id. pk id of the edb_agency table.',
-  `email` text COMMENT 'store the manager email address',
-  `phone_number` varchar(255) DEFAULT NULL COMMENT 'store the manager phone number',
-  `status` enum('active','inactive','deleted') NOT NULL DEFAULT 'active' COMMENT 'store the status of the record. (active/inactive/deleted)',
-  `created_at` datetime NOT NULL,
-  `created_by` int(11) DEFAULT NULL,
-  `updated_at` datetime DEFAULT NULL,
-  `updated_by` int(11) DEFAULT NULL
-)
+This is to create a ERD using AI tool.
+
+
+<!-- eraser-additional-content -->
+## Diagrams
+<!-- eraser-additional-files -->
+<a href="/README-entity-relationship-1.eraserdiagram" data-element-id="iloHQ9Lv5YeWcmc5ewZML"><img src="/.eraser/uFDqUm1RSpHS0Jahm0FI___kqVEipG3vWa25zrYNsF3MzLHV9o1___---diagram----cd670a5f8a44bac0ed53fd3ed87139fd.png" alt="" data-element-id="iloHQ9Lv5YeWcmc5ewZML" /></a>
+<!-- end-eraser-additional-files -->
+<!-- end-eraser-additional-content -->
+<!--- Eraser file: https://app.eraser.io/workspace/uFDqUm1RSpHS0Jahm0FI --->
